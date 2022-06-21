@@ -3,7 +3,7 @@
 namespace API_Interactive_Lab_1.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("/")]
 public class HomeController : ControllerBase
 {
     [HttpGet]
